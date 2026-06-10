@@ -1,6 +1,6 @@
 package org.features.domain; //cambiar por la ruta correcta
 
-public class Pelicula {
+public class pelicula {
 
     private String id;
 
