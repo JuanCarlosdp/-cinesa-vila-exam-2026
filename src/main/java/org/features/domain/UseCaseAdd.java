@@ -1,6 +1,4 @@
 package org.features.domain;
 
-public class UseCaseList {
-
-
+public class UseCaseAdd {
 }

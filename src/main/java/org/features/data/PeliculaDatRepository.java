@@ -13,4 +13,11 @@ public class PeliculaDatRepository implements peliculaRepository {
     public ArrayList<Pelicula> verListado() {
         return peliculaMemLocalDataSource.findAll();
     }
+
+    @Override
+    public void add(Pelicula pelicula) {
+
+    }
+
+
 }
