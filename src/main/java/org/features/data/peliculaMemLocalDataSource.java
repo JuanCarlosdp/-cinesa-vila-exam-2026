@@ -1,19 +1,19 @@
 package org.features.data; //cambiar por la ruta correcta
 
-import org.features.domain.Pelicula;
+import org.features.domain.pelicula;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class PeliculaMemLocalDataSource {
+public class peliculaMemLocalDataSource {
 
-    private ArrayList<Pelicula> storage = new ArrayList<>();
+    private ArrayList<pelicula> storage = new ArrayList<>();
 
-    public ArrayList<Pelicula> findAll() {
+    public ArrayList<pelicula> findAll() {
         return storage;
     }
 
-    public void save(Pelicula pelicula) {
+    public void save(pelicula pelicula) {
         storage.add(pelicula);
     }
 

@@ -3,6 +3,7 @@ package org.features.domain;
 import java.util.ArrayList;
 
 public interface peliculaRepository {
-    ArrayList<Pelicula> verListado();
-    void add (Pelicula pelicula);
+    ArrayList<pelicula> verListado();
+    void añadir(pelicula pelicula);
+    void borrar ();
 }
